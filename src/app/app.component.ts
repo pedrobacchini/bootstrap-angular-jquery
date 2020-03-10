@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bootstrap-angular-jquery';
+
+  setTab(index: number) {
+    console.log(index);
+  }
 }
